@@ -11,8 +11,8 @@ const { NODE_ENV = DEVELOPMENT } = process.env;
 
 const base = {
     entry: {
+        background: './source/programs/background/index.ts',
         pluristory: './source/programs/pluristory/index.tsx',
-        popup: './source/programs/popup/index.tsx',
         options: './source/programs/options/index.tsx',
     },
     resolve: {
@@ -47,11 +47,6 @@ const base = {
             template: './source/programs/pluristory/index.html',
             chunks: ['pluristory'],
             filename: 'pluristory.html',
-        }),
-        new HtmlWebpackPlugin({
-            template: './source/programs/popup/index.html',
-            chunks: ['popup'],
-            filename: 'popup.html',
         }),
         new HtmlWebpackPlugin({
             template: './source/programs/options/index.html',
