@@ -1,21 +1,21 @@
 {
-    "name": "@plurid/pluritab-chrome",
-    "version": "0.0.0",
-    "description": "pluritab Chrome Extension",
+    "name": "@plurid/pluristory-chrome",
+    "version": "0.0.0-0",
+    "description": "pluristory Chrome Extension",
     "keywords": [
         "plurid"
     ],
     "author": "ly3xqhl8g9 <ly3xqhl8g9@plurid.com> (https://plurid.com)",
-    "license": "MIT",
+    "license": "SEE LICENSE IN LICENSE",
     "repository": {
         "type": "git",
-        "url": "https://github.com/plurid/pluritab"
+        "url": "https://github.com/plurid/pluristory"
     },
     "bugs": {
         "email": "source@plurid.com",
-        "url": "https://github.com/plurid/pluritab/issues"
+        "url": "https://github.com/plurid/pluristory/issues"
     },
-    "homepage": "https://github.com/plurid/pluritab/tree/master/packages/pluritab-chrome",
+    "homepage": "https://github.com/plurid/pluristory/tree/master/packages/pluristory-chrome",
     "files": [
         "distribution/"
     ],
@@ -32,15 +32,16 @@
         "distribute": "yarn build.production && node scripts/zip.js"
     },
     "dependencies": {
-        "@plurid/plurid-data": "^0.1.149",
-        "@plurid/plurid-engine": "^0.1.83",
-        "@plurid/plurid-functions": "^0.1.13",
-        "@plurid/plurid-functions-react": "^0.0.1",
-        "@plurid/plurid-icons-react": "^0.1.19",
-        "@plurid/plurid-pubsub": "^0.1.8",
-        "@plurid/plurid-react": "^0.1.175",
-        "@plurid/plurid-themes": "^0.1.26",
-        "@plurid/plurid-ui-react": "^0.1.82",
+        "@plurid/plurid-data": "^0.0.0-0",
+        "@plurid/plurid-engine": "^0.0.0-0",
+        "@plurid/plurid-functions": "^0.0.0-0",
+        "@plurid/plurid-functions-react": "^0.0.0-0",
+        "@plurid/plurid-icons-react": "^0.0.0-0",
+        "@plurid/plurid-pubsub": "^0.0.0-0",
+        "@plurid/plurid-react": "^0.0.0-0",
+        "@plurid/plurid-themes": "^0.0.0-0",
+        "@plurid/plurid-ui-components-react": "^0.0.0-0",
+        "@plurid/plurid-ui-state-react": "^0.0.0-0",
         "apollo-cache-inmemory": "^1.6.6",
         "apollo-client": "^2.6.10",
         "apollo-link-http": "^1.5.17",

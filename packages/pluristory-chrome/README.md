@@ -1,8 +1,9 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/plurid/pluritab/master/about/identity/pluritab-logo.png" height="250px">
+    <img src="https://raw.githubusercontent.com/plurid/pluristory/master/about/identity/pluristory-logo.png" height="250px">
     <br />
-    <a target="_blank" href="https://github.com/plurid/pluritab/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: MIT">
+    <br />
+    <a target="_blank" href="https://github.com/plurid/pluristory/blob/master/LICENSE">
+        <img src="https://img.shields.io/badge/license-DEL-blue.svg?colorB=1380C3&style=for-the-badge" alt="License: DEL">
     </a>
 </p>
 
@@ -11,11 +12,11 @@
 <h1
     align="center"
 >
-    pluritab
+    pluristory
 </h1>
 
 <p
     align="center"
 >
-    enhances new tab with a 3D space of tools
+    explore browser history as a 3D structure
 </p>
